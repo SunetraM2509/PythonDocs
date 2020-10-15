@@ -19,7 +19,7 @@ print(message)
 
 guest = ["Anita", "Sameer","Jimmy", "Sony"]
 print(guest)
-print("Sameer is unable to make it to the dinner, so there is a new guest to be invited")
+print("Sameer is unable to make it to the dinner, so there is a new guest to be invited")# print the name from the array for the guest who can't make it to the dinner
 guest[1] = "Sunny"
 print(guest)
 message = guest[0].title() + " " + "You are cordially invited for dinner at my residence."
@@ -30,6 +30,8 @@ message = guest[2].title() + " " + "You are cordially invited for dinner at my r
 print(message)
 message = guest[3].title() + " " + "You are cordially invited for dinner at my residence."
 print(message)
+
+#in the above prints can you use loop statements print?
 
 #More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
  #	• Add a print statement to the end of your program informing people that you found a bigger dinner table.
@@ -59,6 +61,8 @@ message = guest[5].title() + " " + "You are cordially invited for dinner at my r
 print(message)
 message = guest[6].title() + " " + "You are cordially invited for dinner at my residence."
 print(message)
+
+#in the above prints can you use loop statements to print?
 
 #Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
  #	• Start with your program from Exercise 4-3. Add a new line that prints a message saying that you can invite only two people for dinner.
